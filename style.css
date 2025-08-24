@@ -1,7 +1,6 @@
 :root {
     --orange: #ffa500;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -12,28 +11,23 @@
     text-decoration: none;
     transition: all .2s linear;
 }
-
 *::selection {
     background: var(--orange);
     color: #fff;
 }
-
 html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 6rem;
     scroll-behavior: smooth;
 }
-
 section {
     padding: 2rem 9%;
 }
-
 .heading {
     text-align: center;
     padding: 2.5rem 0;
 }
-
 .heading span {
     font-size: 3.5rem;
     background: rgba(255, 165, 0, .2);
@@ -41,11 +35,9 @@ section {
     border-radius: .5rem;
     padding: .2rem 1rem;
 }
-
 .heading span.space {
     background: none;
 }
-
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -140,11 +132,9 @@ header .search-bar-container label {
     font-size: 3rem;
     margin-left: 1.5rem;
 }
-
 header .search-bar-container label:hover {
     color: var(--orange);
 }
-
 .login-form-container {
     position: fixed;
     top: -120%;
@@ -157,12 +147,10 @@ header .search-bar-container label:hover {
     align-items: center;
     justify-content: center;
 }
-
 .login-form-container.active {
     top: 0;
 
 }
-
 .login-form-container form {
     margin: 2rem;
     padding: 1.5rem 2rem;
@@ -170,7 +158,6 @@ header .search-bar-container label:hover {
     background: #fff;
     width: 50rem;
 }
-
 .login-form-container form h3 {
     font-size: 3rem;
     color: #444;
@@ -178,7 +165,6 @@ header .search-bar-container label:hover {
     text-align: center;
     padding: 1rem 0;
 }
-
 .login-form-container form .box {
     width: 100%;
     padding: 1rem;
@@ -188,15 +174,12 @@ header .search-bar-container label:hover {
     border: .1rem solid rgba(0, 0, 0, .3);
     text-transform: none;
 }
-
 .login-form-container form .box:focus {
     border-color: var(--orange);
 }
-
 .login-form-container form #rememder {
     margin: 20px 0;
 }
-
 .login-form-container form label {
     font-size: 1.5rem;
 }
@@ -240,7 +223,6 @@ header .search-bar-container label:hover {
     cursor: pointer;
     display: none;
 }
-
 .home {
     min-height: 100vh;
     display: flex;
@@ -619,41 +601,6 @@ header .search-bar-container label:hover {
     color: var(--orange);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:1200px) {
     html {
         font-size: 55%;
@@ -699,7 +646,6 @@ header .search-bar-container label:hover {
     #menu-bar {
         display: initial;
     }
-
     header .navbar {
         position: absolute;
         top: 100%;
@@ -725,27 +671,6 @@ header .search-bar-container label:hover {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:450px) {
     html {
         font-size: 50%;
@@ -758,4 +683,5 @@ header .search-bar-container label:hover {
     .contact .row form .inputBox input {
         width: 100%;
     }
+
 }
